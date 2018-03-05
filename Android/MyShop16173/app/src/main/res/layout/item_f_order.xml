@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout_forder"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView_forder_x"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="@color/colorMBlack0"
+        android:layout_gravity="center"
+        android:text="@string/temp_number_2" />
+    <TextView
+        android:id="@+id/textView_forder_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="@color/colorMBlack0"
+        android:layout_gravity="center"
+        android:text="@string/temp_number_2" />
+    <TextView
+        android:id="@+id/textView_forder_username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="@color/colorMBlack0"
+        android:layout_gravity="center"
+        android:text="@string/temp_user_name" />
+
+    <ImageView
+        android:id="@+id/imageView_forder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/is_no"
+        android:layout_gravity="center"
+        android:src="@drawable/wait" />
+
+    <TextView
+        android:id="@+id/textView_forder_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="@color/colorMBlack0"
+        android:layout_gravity="center"
+        android:maxEms="8"
+        android:text="@string/temp_good_name" />
+    <TextView
+        android:id="@+id/textView_forder_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="@color/colorMBlack0"
+        android:layout_gravity="center"
+        android:text="@string/temp_number" />
+    <TextView
+        android:id="@+id/textView_forder_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="@color/colorMBlack0"
+        android:layout_gravity="center"
+        android:text="@string/temp_number_float" />
+
+    <TextView
+        android:id="@+id/textView_forder_status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="@color/colorMBlack0"
+        android:layout_gravity="center"
+        android:maxEms="4"
+        android:text="@string/temp_word" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_forder_look"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order_look" />
+
+        <Button
+            android:id="@+id/button_forder_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_cancel"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/button_forder_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/button_pay" />
+        <Button
+            android:id="@+id/button_forder_ship"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/button_ship" />
+
+        <Button
+            android:id="@+id/button_forder_finish_u"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/button_finish_2" />
+        <Button
+            android:id="@+id/button_forder_return"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/button_return" />
+
+        <Button
+            android:id="@+id/button_forder_finish_m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/button_finish"/>
+
+    </LinearLayout>
+
+</LinearLayout>

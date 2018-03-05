@@ -1,0 +1,42 @@
+.label-pill {
+  padding-right: .6em;
+  padding-left: .6em;
+  border-radius: 10rem;
+}
+
+.nav-pills{
+	width: 200px;
+	z-index: 10;
+}
+.panel-pills{
+	
+	z-index: 11;
+}
+.nav-pills.affix{
+    top: 20px; /* Set the top position of pinned element */
+}
+.panel-pills.affix{
+    top: 20px; /* Set the top position of pinned element */
+}
+#lists ul li{
+	padding: 5px;
+}
+canvas{
+    background-color:white;
+    
+}
+canvas#canvas1{
+    z-index:12; 
+    width:360px;
+    height:360px;
+}
+canvas#canvas2{
+	width:200px;
+    height:200px;
+	position:absolute;
+    z-index:13;
+    left:0px;
+    top:0px;
+    border:thin dashed black;   
+    display:none;
+}

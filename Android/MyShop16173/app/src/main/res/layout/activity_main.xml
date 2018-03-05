@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chenexample.myshop16173.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewPager_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioGroup_main"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton_main_home"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/main_radio_home_selector"
+            android:text="@string/main_radio_home" />
+
+        <RadioButton
+            android:id="@+id/radioButton_main_search"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/main_radio_search_selector"
+            android:text="@string/main_radio_search" />
+
+        <RadioButton
+            android:id="@+id/radioButton_main_fen"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/main_radio_fen_selector"
+            android:text="@string/main_radio_fen" />
+
+        <RadioButton
+            android:id="@+id/radioButton_main_shoppingcar"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/main_radio_shoppingcar_selector"
+            android:text="@string/main_radio_shoppingcar" />
+
+        <RadioButton
+            android:id="@+id/radioButton_main_order"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/main_radio_order_selector"
+            android:text="@string/main_radio_order" />
+
+        <RadioButton
+            android:id="@+id/radioButton_main_my"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/main_radio_my_selector"
+            android:text="@string/main_radio_my" />
+    </RadioGroup>
+
+</LinearLayout>

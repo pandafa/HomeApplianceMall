@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView_i_list_good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/is_no"
+        android:src="@drawable/wait" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_i_list_good_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/good_name" />
+
+        <TextView
+            android:id="@+id/textView_i_list_good_pre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/temp_good_pre" />
+
+        <TextView
+            android:id="@+id/textView_i_list_good_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/temp_good_now" />
+
+        <TextView
+            android:id="@+id/textView_i_list_good_over"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/temp_good_over" />
+    </LinearLayout>
+</LinearLayout>

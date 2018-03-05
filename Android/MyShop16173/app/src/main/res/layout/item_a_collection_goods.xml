@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView_i_a_x"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_gravity="center"
+        android:text="@string/temp_number_2" />
+
+    <ImageView
+        android:id="@+id/imageView_i_a"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/wait" />
+
+    <TextView
+        android:id="@+id/textView_i_a_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:maxEms="8"
+        android:text="@string/temp_good_name" />
+
+    <TextView
+        android:id="@+id/textView_i_a_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/temp_number" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+       android:layout_marginLeft="5dp"
+        android:paddingRight="3dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_i_a_collection_look"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/good_look" />
+
+        <Button
+            android:id="@+id/button_i_a_collection_del"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/good_del" />
+    </LinearLayout>
+</LinearLayout>

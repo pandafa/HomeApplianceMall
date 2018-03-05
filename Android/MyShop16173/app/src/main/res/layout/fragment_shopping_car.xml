@@ -1,0 +1,227 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chenexample.myshop16173.fragment.ShoppingCarFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_fcar_null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="40dp">
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:src="@drawable/shoppingcar_null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20dp"
+                android:text="@string/shoping_car_null"
+                android:textColor="@color/colorMBlack0"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_fcar_no"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="40dp">
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:src="@drawable/prompt_warning" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20dp"
+                android:text="@string/no_this"
+                android:textColor="@color/colorMBlack0"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_fcar_noLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="25sp"
+            android:paddingTop="25sp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:src="@drawable/face_false" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/no_log_first_login"
+                android:textColor="@color/colorMRed"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_fclass_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/login"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_fclass_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/regist"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_fcar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout_fcar_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/FShoppingCarTop"
+                    android:layout_weight="2"
+                    android:text="@string/select" />
+
+                <TextView
+                    style="@style/FShoppingCarTop"
+                    android:layout_weight="5"
+                    android:text="@string/tu_pian" />
+
+                <TextView
+                    style="@style/FShoppingCarTop"
+                    android:layout_weight="10"
+                    android:text="@string/good_name" />
+
+                <TextView
+                    style="@style/FShoppingCarTop"
+                    android:layout_weight="3"
+                    android:text="@string/price_one" />
+
+                <TextView
+                    style="@style/FShoppingCarTop"
+                    android:layout_weight="3"
+                    android:text="@string/number" />
+
+                <TextView
+                    style="@style/FShoppingCarTop"
+                    android:layout_weight="4"
+                    android:text="@string/doit" />
+            </LinearLayout>
+
+            <view
+                class="android.support.v4.widget.SwipeRefreshLayout"
+                android:id="@+id/refreshLayout_f_car"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ListView
+                    android:id="@+id/listView_fcar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/linearLayout_fcar_bottom"
+                    android:layout_below="@+id/linearLayout_fcar_top" />
+
+            </view>
+
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout_fcar_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/radioButton_f_shoppingcar_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/select_all"
+                    android:textColor="@color/colorMBlack0"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button_f_shoppingcar_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/submit_order"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

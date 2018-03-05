@@ -1,0 +1,194 @@
+/*.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 2.6;
+  border-radius: 35px;
+}
+*/
+.img-cate{
+  width: 90px;
+  height: 90px;
+}
+.clear-border{
+	border:1px solid red;
+	border-radius: 35px;
+}
+.text-center{
+	text-align: center
+}
+.font-red{
+	color:red;
+	font-weight:bold;
+}
+.caption-style{
+	background-color: #f3f3f3;
+	text-align: center;	
+}
+a:hover {text-decoration:none;}
+
+.homegoods:hover{
+	border:1px solid red;	
+}
+.homegoods img{
+	width:150px;
+    height:150px;
+}
+.today-style{
+	background-image:url(images/clockbg.png);
+	//border:1px solid red;
+	background-repeat:repeat;
+	//width:280px;
+    //height:150px;
+    vertical-align : middle;
+}
+
+.today-style img{	
+	text-align: center;
+	width: 90%;
+    height: 90%;
+	
+}
+.caption h3{
+	color:white;
+	font-family:'Microsoft Yahei', '΢���ź�';
+	font-size:26px;
+	margin:0px 50px 0px 50px;
+}
+h3{
+	font-family:'Microsoft Yahei', '΢���ź�';
+	font-size:20px;
+	padding:0px;
+	font-weight:bold;
+}
+.todaygoods h4{
+	margin-top:30px;
+}
+.todaygoods{
+	border:none;
+	//width:180px;
+	//height:280px;
+	vertical-align : middle;
+	text-align:center;
+}
+.todaygoods img{
+	margin-top:5px;
+	margin-bottom:0px;
+}
+.todaygoods img:hover{
+	margin-left:20px;
+}
+
+.logo{
+	font-size:24px;
+	color:gray;
+}
+
+.cate-right{
+	border:1px solid red;
+	float:right;
+}
+.navtitle{
+	padding:2px 8px 2px 8px;
+	border-bottom:3px solid #282828;
+	font-size:14px;
+	margin-bottom:10px;
+}
+.cate-title{
+	font-family:'Microsoft Yahei', '΢���ź�';
+	font-size:24px;
+	padding-right:10px;
+ 
+}
+.cate-ul{
+	padding:10px;
+	font-family:'Microsoft Yahei', '΢���ź�';
+}
+.btn-more ,.btn-more:hover,.btn-more:visited,.btn-more:active,.btn-more:link{
+	margin-top:12px;
+	border-radius: 15px;
+	background-color: #ff3198;
+	font-family:'Microsoft Yahei', '΢���ź�';
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+	border:none;
+}
+/*--goodsdetailҳ����ʽ--*/
+.bg_goodsdetail{
+	background-color: #f5f5f5;
+}
+.bg_goodsdetail p{
+	margin:10px;
+	font-family:'Microsoft Yahei', '΢���ź�';
+	font-size:16px;
+	color:#c0c0c0;
+}
+.bg_goodsdetail span.price{
+    text-decoration:line-through;
+	font-size:16px;
+	color:#808080;
+}
+.p_height{
+	margin:20px 0;
+}
+.bg_goodsdetail span.price_red{
+	font-size:20px;
+	color:#ff0000;
+	font-weight:bold;
+}
+.row_style{
+	margin:10px auto;
+}
+/*-----*/
+
+/* Carousel base class */
+.carousel {
+  height: 350px;
+  margin-bottom: 10px;
+}
+.goods {
+  height: 210px;
+  margin-bottom: 10px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 350px;
+  background-color: #777;
+}
+.carousel .goods {
+  height: 210px;
+  background-color: #fff;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  height: 350px;
+}
+.carousel-inner > .item > img.img-responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  min-height: 90%;
+  height: 200px;
+}
+
+h3.color{
+	color:black;
+}
+.substr{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}

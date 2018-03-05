@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/textView_i_a_order_submit_name_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/good_name"
+            android:textColor="@color/colorMBlack0"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_i_a_order_submit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/textView_i_a_order_submit_name_left"
+            android:gravity="center_vertical"
+            android:text="@string/temp_good_name"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/textView_i_a_order_submit_img_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/good_picture"
+            android:textColor="@color/colorMBlack0"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView_i_a_order_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/textView_i_a_order_submit_img_left"
+            android:gravity="center_vertical"
+            android:src="@drawable/wait"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/textView_i_a_order_submit_number_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/good_number"
+            android:textColor="@color/colorMBlack0"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_i_a_order_submit_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/textView_i_a_order_submit_number_left"
+            android:gravity="center_vertical"
+            android:text="@string/temp_number_3"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/textView_i_a_order_submit_price_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/good_price"
+            android:textColor="@color/colorMBlack0"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_i_a_order_submit_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/textView_i_a_order_submit_price_left"
+            android:gravity="center_vertical"
+            android:text="@string/temp_number_float"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</LinearLayout>
